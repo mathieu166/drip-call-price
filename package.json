@@ -1,0 +1,25 @@
+{
+  "name": "drip-call-price",
+  "version": "1.0.0",
+  "description": "A DRIP Call Price",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathieu166/drip-call-price"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ethereum-block-by-date": "^1.4.2",
+    "mongodb": "^4.1.1",
+    "node-cron": "^3.0.0",
+    "web3": "^1.5.2"
+  }
+}
