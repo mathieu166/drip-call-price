@@ -21,7 +21,7 @@ class Job {
             try {
                 let currentBlock = await web3.eth.getBlockNumber()
                 let dripStore = await dripService.getDripStoreOrCreate()
-
+                console.log('Current block', currentBlock);
                 const fromBlock = dripStore.lastDripPriceBlock + samplesPerLookup
                 const toBlock = Math.min(fromBlock + (max_samples * samplesPerLookup), currentBlock)
 
